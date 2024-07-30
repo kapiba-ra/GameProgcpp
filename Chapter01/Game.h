@@ -45,9 +45,9 @@ private:
 	
 	// Pong specific
 	// Direction of paddle
-	int mPaddleDir;
+	int mPaddleDir[2];
 	// Position of paddle
-	Vector2 mPaddlePos;
+	Vector2 mPaddlePos[2];
 	// Position of ball
 	Vector2 mBallPos;
 	// Velocity of ball
